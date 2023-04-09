@@ -1,0 +1,217 @@
+/* HTML Main Tags */
+
+body {
+    font-family: "Montserrat" , serif;
+    text-align: center;
+}
+
+
+/* Headings */
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: "Montserrat-Bold";
+} 
+
+
+/* Navigation-Bar */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.container-fluid {
+    padding: 3% 15% 6% 15%;
+}
+
+
+/* Title */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+.info {
+    font-family: "Montserrat-Black" , sans-serif;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.title-image { /* Title Image */
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 320px;
+}
+
+.download-button {  /* Download Buttons */
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Features */
+
+#icons {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.icon-head {
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.icon-text {
+    color: #8f8f8f;
+}
+
+.feature {
+    padding: 0 80px 0 80px;
+}
+
+
+/* Testimonial section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-family: "Montserrat-Bold";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;      /* top left-right bottom */
+}
+
+.carousel-item {
+    padding: 7% 15%;   /*top-bottom and then left-right */
+}
+
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.Pricing-text {
+    font-family: "Montserrat-Bold";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.price {
+    color: #ff4c68;
+    font-family: "Montserrat-Bold";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.price1 {
+    color: #ef8172;
+}
+
+
+/* Call to Action */
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15% 5%;
+}
+
+.call {
+    font-family: "Montserrat-Black" serif;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 30px;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+
+#footer {
+    padding: 7% 15%;
+    background-color: white;
+}
+
+.foot {
+    color: gray;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.social {
+    padding: 20px 10px;
+}
+
+
+/* Media Query */
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+        text-align: center;
+    }
+
+    .row {
+        text-align: center;
+    }
+}
